@@ -14,7 +14,7 @@ import os		# Import the Modules
 # Readfile Functions which open the file that is passed to the script
 
 def readfile(filename):
-	f = open(filename, 'r')
+	f = open(filename, 'r') #Why using r here if you have a line = f.read()?
 	line = f.read()
 	print line
 
